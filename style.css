@@ -3,7 +3,7 @@
     height: 300px;
     border-bottom: 2px solid #000;
     margin: auto;
-    background-image: url(/img/fon.jpg);
+    background-image: url(img/fon.jpg);
 }
 
 .body {
@@ -13,7 +13,7 @@
 #knopa {
     width: 60px;
     height: 80px;
-    background-image: url(/img/knopa.png);
+    background-image: url(img/knopa.png);
     background-size: 60px 80px;
     position: relative;
     top: 215px;
@@ -22,7 +22,7 @@
 #kolyaska {
     width: 70px;
     height: 70px;
-    background-image: url(/img/kolyaska.png);
+    background-image: url(img/kolyaska.png);
     background-size: 70px 70px;
     position: relative;
     top: 160px;
