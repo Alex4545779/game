@@ -1,0 +1,68 @@
+.game {
+    width: 800px;
+    height: 300px;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    background-image: url(/img/fon.jpg);
+}
+
+.body {
+    background-color: #8DAEE3;
+}
+
+#knopa {
+    width: 60px;
+    height: 80px;
+    background-image: url(/img/knopa.png);
+    background-size: 60px 80px;
+    position: relative;
+    top: 215px;
+}
+
+#kolyaska {
+    width: 70px;
+    height: 70px;
+    background-image: url(/img/kolyaska.png);
+    background-size: 70px 70px;
+    position: relative;
+    top: 160px;
+    left: 730px;
+    animation: knopaMov 2s infinite linear;
+
+}
+
+@keyframes knopaMov {
+    0% {
+        left: 730px;
+    }
+
+    100% {
+        left: -20px;
+    }
+}
+
+.jump {
+    animation: jump 0.4s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 215px;
+    }
+
+    30% {
+        top: 120px;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    50% {
+        top: 120px;
+    }
+
+    100% {
+        top: 215px;
+    }
+}
